@@ -1,6 +1,7 @@
 ### MLflow_in_AWS
 #practice project using MLFLOW tracking service in AWS S3 and EC2
 
+
 ## MLFLOW on AWS Setup:
 
 1. login to AWS console
@@ -35,7 +36,7 @@ pipenv shell
 aws configure
 
 # finally 
-mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflowtrackinglei1
+mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflowtrackinglei1 (deleted already)
 
 #set uri in your local terminal and in your code
-export MLFLOW_TRACKING_URI=http://ec2-54-162-206-66.compute-1.amazonaws.com:5000/
+export MLFLOW_TRACKING_URI=http://ec2-54-162-206-66.compute-1.amazonaws.com:5000/ (deleted)
